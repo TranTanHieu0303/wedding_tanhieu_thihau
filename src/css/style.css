@@ -1,0 +1,75 @@
+
+.tdk-music {
+    position: fixed;
+    z-index: 99999;
+    left: 0;
+    bottom: 0;
+    width: 90px;
+    height: 90px;
+}
+
+.tdk-music svg {
+    fill: white;
+    position: absolute;
+    top: calc(50% - 20px);
+    left: calc(50% - 20px);
+    width: 40px;
+    height: 40px;
+}
+
+.tdk-bg-player {
+    width: 65px;
+    height: 65px;
+    top: 12px;
+    left: 12px;
+    position: absolute;
+    box-shadow: 0 0 0 0 #c31d1d;
+    background-color: rgba(121, 113, 113, 1.0);
+    border-radius: 50%;
+    border: 2px solid transparent;
+    transition: all .5s;
+    transform-origin: 50% 50%;
+}
+
+.tdk-player-text {
+    color: white;
+    white-space: nowrap;
+    position: absolute;
+    top: 25px;
+    left: 21px;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgba(121, 113, 113, 1.0);
+    padding: 0 10px 0 60px;
+    border-radius: 30px;
+}
+
+.tdk-music .tdk-icon-pause {
+    display: none;
+}
+
+.tdk-music.playing .tdk-bg-player {
+    animation: zoom 1.3s infinite;
+}
+
+.tdk-music.playing .tdk-icon-play {
+    display: none;
+}
+
+.tdk-music.playing .tdk-icon-pause {
+    display: inline;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(0.9);
+    }
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 15px transparent;
+    }
+    100% {
+        transform: scale(0.9);
+        box-shadow: 0 0 0 0 transparent;
+    }
+}

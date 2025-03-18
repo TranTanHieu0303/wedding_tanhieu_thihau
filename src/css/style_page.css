@@ -6,6 +6,7 @@ body {
 .ladi-wraper {
     margin: 0 auto;
     width: 420px;
+    /* zoom: 160%; */
 }
 
 @font-face {
