@@ -1,4 +1,6 @@
 
+/* Thiết lập giao diện cho nút tạm dừng và play */
+
 .tdk-music {
     position: fixed;
     z-index: 99999;
