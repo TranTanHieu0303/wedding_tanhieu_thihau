@@ -4050,7 +4050,7 @@
 }
 
 #IMAGE29>.ladi-image>.ladi-image-background {
-    background-image: url("https://w.ladicdn.com/s400x400/5c728619c417ab07e5194baa/th-20240112130749-9eb7u.png");
+    background-image: url("/src/image/logo.ico");
 }
 
 #IMAGE29.ladi-animation>.ladi-image {
@@ -4211,7 +4211,7 @@
     height: 355px;
     top: -33px;
     left: 0px;
-    background-image: url("https://w.ladicdn.com/s500x700/5c728619c417ab07e5194baa/3b5f245e-7e4b-490a-b707-48f07e069513-20240626153947-55y_s.jpg");
+    background-image: url("/src/image/QR/Hieu.jpg");
 }
 
 #IMAGE30>.ladi-image {
@@ -4242,7 +4242,7 @@
 }
 
 #IMAGE31>.ladi-image>.ladi-image-background {
-    background-image: url("https://w.ladicdn.com/s500x550/5c728619c417ab07e5194baa/fd41a4d1-315f-4b19-9665-96911e364677-20240626153947-rede5.jpg");
+    background-image: url("/src/image/QR/Hau.jpg");
 }
 
 #IMAGE31>.ladi-image {
